@@ -1,9 +1,10 @@
 const mensagem = prompt('Qual o nome da aplicação?')
 
 function mostrarMensagem(){
-  
+  console.log()
 }
 
+mostrarMensagem()
 // 7. Crie uma função chamada mostrarMensagem() que não tenha
 // parâmetro. Esta função será chamada ao abrir a página e mostrará
 // uma mensagem no console.log() informando “Acesso à aplicação

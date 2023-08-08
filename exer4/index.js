@@ -1,12 +1,15 @@
-function converterSegundosHoras(seg){
-  const horas = Math.floor(seg / 3600)
-  const minutos = Math.floor((seg % 3600) / 60)
-  const segundosRestantes = seg % 60
+function converterSegHr(seg){
+  const SEG_HORAS = 3600
+  const SEG_MINUTOS = 60
+  const horas = Math.floor(seg / SEG_HORAS)
+  const minutos = Math.floor((seg % SEG_HORAS) / SEG_MINUTOS)
+  const segundosRestantes = seg % SEG_MINUTOS
 
-  return {horas, minutos, segundos: segundosRestantes}
+  console.log(`${horas}:${minutos}:${segundosRestantes}`)
 }
 
-console.log(converterSegundosHoras(3890))
+converterSegHr(3672)
+
 // 4. Crie uma função que recebe por parâmetro o tempo de duração de
 // uma fábrica expressa em segundos e retorna esse tempo em horas,
 // minutos e segundos.
