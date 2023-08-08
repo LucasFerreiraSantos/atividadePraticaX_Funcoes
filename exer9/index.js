@@ -5,6 +5,7 @@ function calcularMedia(nota1, nota2, nota3, nome){
 }
 
 calcularMedia(10, 7, 8, 'Lucas')
+
 // 9. Crie uma função chamada calcularMedia(nota1, nota2, nota3,
 //   nome), que recebe 4 parâmetros sendo três inteiros e um texto
 //   (String). Esta função será chamada ao abrir a página e mostrará um
